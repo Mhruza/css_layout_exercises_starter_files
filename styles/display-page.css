@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 0;
+	border: 1px solid black;
+}
+
+.top {
+	height: 200px;
+	width: 50%;
+	font-size: 0;
+	display: inline-block;
+}
+.top-one {
+	background-color: green;
+	font-size: 0;
+	
+}
+.top-two {
+	background-color: blue;
+	font-size: 0;
+	
+}
+.bottom {
+	height: 300px;
+	width: 33.33%;
+	font-size: 0;
+	display: inline-block;
+}
+.bottom-one {
+	background-color: gray;
+	font-size: 0;
+}
+.bottom-two {
+	background-color: black;
+	font-size: 0;
+}
+.bottom-three {
+	background-color: yellow;
+	font-size: 0;
+}
