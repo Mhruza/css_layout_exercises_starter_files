@@ -13,6 +13,7 @@ body {
 	width: 50%;
 	font-size: 0;
 	display: inline-block;
+	border: 1px solid black;
 }
 .top-one {
 	background-color: green;
@@ -29,6 +30,7 @@ body {
 	width: 33.33%;
 	font-size: 0;
 	display: inline-block;
+	border: 1px solid black;
 }
 .bottom-one {
 	background-color: gray;
