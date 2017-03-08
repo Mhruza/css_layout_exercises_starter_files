@@ -56,6 +56,7 @@ a:hover {
 	left: 450px;
 	top: 200px;
 }
+/* Why is this background image not displaying?? */
 body {
 	background-image: url(images/outerspace_landscape.jpeg) no-repeat;
 	background-position: center;	
