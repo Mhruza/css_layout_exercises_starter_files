@@ -1,36 +1,37 @@
 nav {
-	padding-left: 60px;
-	padding-right: 60px;
+	padding: 5px 60px;	
 	position: fixed;
-	height: 70px;
+	height: 60px;
 	width: 100%;
+	margin: auto;	
 	background-color: gray;
-	text-align: right;
+	vertical-align: middle;	
 }
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: absolute;
 	display: inline-block;
-	right: 600px;
-	text-align: center;
-	vertical-align: top;
+	
 }
 li {
-	display: inline-block;
-	vertical-align: middle;
-
+	display: inline-block; 
+	color: 	purple;
+}
+li::after {
+	content: "|";
+	margin-left: 5px;
+}
+a:hover {
+	color: 	black;
 }
 .logo {
-	position: absolute;
-	left: 40px;
-	top: 10px;
-	bottom: 10px;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+	border: 1px solid black;
+	display: inline-block;	
+	vertical-align: middle;	
 }
+
 .dot-box {
 	height: 300px;
 	width: 600px;
@@ -44,19 +45,19 @@ li {
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	left: 175px;
-	top: 100px;
+	top: -100px;
+	left: -100px;	 	
+	
 }
 .dog {
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 400px;
-	left: 775px;
+	left: 450px;
+	top: 200px;
 }
-.background {
-	background: url("images/outerspace_landscape.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+body {
+	background-image: url(images/outerspace_landscape.jpeg) no-repeat;
+	background-position: center;	
+	background-position: cover;		
 }
